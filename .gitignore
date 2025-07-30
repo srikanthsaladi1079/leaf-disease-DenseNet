@@ -1,0 +1,39 @@
+leaf/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.py[cod]
+*.so
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.vscode
+checkpoints/
+*.npz
+*.pyd
+*.dll
+*.pb
+*/whl
+*.zip
+*.tar.gz
+*.h5
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+# Ignore Python virtual environment folders
+venv/
+env/
+# Ignore macOS system files
+.DS_Store
+# Ignore Windows system files
+Thumbs.db
+# Ignore log files
+*.log
+# Ignore dataset files (if any large datasets)
+*.csv
+*.tsv
+# Ignore model files (already covered by *.h5)
+# Ignore any other large binary files you might have
+*.bin
+*.data
