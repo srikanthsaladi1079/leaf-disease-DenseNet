@@ -75,7 +75,7 @@ This project used publicly available PlantVillage dataset : 🔗 🔗 [Kaggle - 
 
 ```
 # clone the repo
-git clone https://github.com/srikanthsaladi1079/leaf-disease-detection.git
+git clone https://github.com/srikanthsaladi1079/leaf-disease-DenseNet
 
 # Navigate to folder
 cd leaf-disease-detection
@@ -86,10 +86,10 @@ source venv/bin/activate # or venv\Scripts\acivate on Windows
 
 # Model File Setup (Manual)
 To keep repository size small, the trained model (model.h5) is not included in the Github repo. You can download it through the following link:
-(Link here)
+(https://drive.google.com/drive/folders/1uaFJdjQ3sqylUNncepzBXERKF88UdbVH?usp=sharing)
 
 # How to Use
-1. Click the link abive to download the file.
+1. Click the link above to download the file.
 2. Place the downloaded model.h5 file in the root directory of this project (same level as your .ipynb or model.py)
 3. Run the notebook or script as usual.
 
@@ -105,6 +105,7 @@ import gdown
 file_id = "FILE_ID" # replace this with actual file id from given link
 output = "model.h5"
 gdown.download(f"Link here id={file_id}", output, quiet=False)
+FILE_ID for above link: 
 
 ⚠️ There shall be model.h5 and old_model.h5 , old_model.h5 is trained early and model.h5 is improvised version. Download model.h5 for use. If the file isn't placed correcly, you may see errors like "FileNotFoundError: model.h5 not found
 
